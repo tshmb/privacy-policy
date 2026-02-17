@@ -24,3 +24,12 @@ cd home-estimate-app/templates
 ```
 
 The script merges all `sources/*.json`, validates duplicate template IDs, and writes `catalog.json`.
+
+## Auto update on GitHub
+
+When files under `home-estimate-app/templates/sources/` are pushed to `main`,
+GitHub Actions automatically rebuilds `catalog.json` and commits it.
+
+Workflow file:
+
+- `.github/workflows/home-estimate-template-catalog.yml`
