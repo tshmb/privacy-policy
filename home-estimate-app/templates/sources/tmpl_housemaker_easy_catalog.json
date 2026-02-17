@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "published_at": "2026-02-15T06:10:28.891Z",
+  "templates": [
+    {
+      "id": "tmpl_housemaker_easy",
+      "manufacturer_name": "シンプルテンプレート",
+      "display_name": "建物、土地、諸費用をざっくり管理",
+      "summary": "建物、土地、諸費用をざっくり管理するテンプレート",
+      "version": 1,
+      "updated_at": "2026-02-15T06:10:28.891Z",
+      "levels": [
+        {
+          "id": "level1_1",
+          "name": "建物",
+          "children": [
+            {
+              "id": "level2_1_1",
+              "name": "建物",
+              "children": [
+                {
+                  "id": "item",
+                  "item_code": "item",
+                  "name": "建物",
+                  "category_name": "建物",
+                  "scope_note": "建物に関わる金額は全てここに入力する",
+                  "default_order": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "level1_2",
+          "name": "土地",
+          "children": [
+            {
+              "id": "level2_2_1",
+              "name": "土地",
+              "children": [
+                {
+                  "id": "item_2",
+                  "item_code": "item_2",
+                  "name": "土地",
+                  "category_name": "土地",
+                  "scope_note": "土地に関わる金額は全てここに入力する",
+                  "default_order": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "level1_3",
+          "name": "諸費用",
+          "children": [
+            {
+              "id": "level2_3_1",
+              "name": "諸費用",
+              "children": [
+                {
+                  "id": "item_3",
+                  "item_code": "item_3",
+                  "name": "諸費用",
+                  "category_name": "諸費用",
+                  "scope_note": "諸費用に関わる金額は全てここに入力する",
+                  "default_order": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

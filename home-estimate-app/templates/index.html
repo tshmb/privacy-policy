@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HomeEstimateApp Templates</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --text: #1e2430;
+        --sub: #5c6473;
+        --border: #dce1ec;
+        --accent: #1a73e8;
+      }
+      body {
+        margin: 0;
+        padding: 24px;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+      p {
+        margin: 0;
+        color: var(--sub);
+      }
+      .card {
+        margin-top: 20px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--border);
+        font-size: 14px;
+      }
+      th {
+        background: #f0f3fa;
+        color: #2b3344;
+      }
+      tr:last-child td {
+        border-bottom: none;
+      }
+      .meta {
+        margin-top: 12px;
+        font-size: 13px;
+        color: var(--sub);
+      }
+      a {
+        color: var(--accent);
+      }
+      .error {
+        margin-top: 14px;
+        color: #b42318;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>HomeEstimateApp Template Catalog</h1>
+      <p>Published templates consumed by the iOS app.</p>
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Manufacturer</th>
+              <th>Template</th>
+              <th>Version</th>
+              <th>ID</th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr>
+              <td colspan="4">Loading...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="meta" id="meta"></div>
+      <div class="meta"><a href="./catalog.json">Open catalog.json</a></div>
+      <div class="error" id="error" hidden></div>
+    </div>
+
+    <script>
+      async function loadCatalog() {
+        try {
+          const response = await fetch("./catalog.json", { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          const payload = await response.json();
+          const templates = Array.isArray(payload.templates) ? payload.templates : [];
+
+          const rows = document.getElementById("rows");
+          if (templates.length === 0) {
+            rows.innerHTML = '<tr><td colspan="4">No templates found.</td></tr>';
+          } else {
+            rows.innerHTML = templates
+              .map((template) => {
+                const manufacturer = escapeHtml(template.manufacturer_name || "-");
+                const displayName = escapeHtml(template.display_name || "-");
+                const version = Number.isFinite(template.version) ? String(template.version) : "-";
+                const id = escapeHtml(template.id || "-");
+                return `<tr><td>${manufacturer}</td><td>${displayName}</td><td>${version}</td><td>${id}</td></tr>`;
+              })
+              .join("");
+          }
+
+          const publishedAt = payload.published_at || "-";
+          document.getElementById("meta").textContent = `published_at: ${publishedAt} / count: ${templates.length}`;
+        } catch (error) {
+          const rows = document.getElementById("rows");
+          rows.innerHTML = '<tr><td colspan="4">Failed to load catalog.</td></tr>';
+          const errorElement = document.getElementById("error");
+          errorElement.hidden = false;
+          errorElement.textContent = String(error);
+        }
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      loadCatalog();
+    </script>
+  </body>
+</html>
