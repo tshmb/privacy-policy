@@ -1,33 +1,178 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HomeEstimateApp Privacy Policy</title>
+    <title>HomeEstimateApp プライバシーポリシー</title>
     <style>
+      :root {
+        --bg: #f6f7f2;
+        --panel: #ffffff;
+        --ink: #1f2733;
+        --muted: #5e6a79;
+        --line: #d9e0ea;
+        --brand: #1f5d9d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        margin: 40px;
-        line-height: 1.7;
-        color: #111;
+        margin: 0;
+        font-family: "Hiragino Sans", "Yu Gothic", "Avenir Next", -apple-system, BlinkMacSystemFont, sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.75;
       }
+
+      .wrap {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 20px 14px 40px;
+      }
+
+      .hero,
+      .section {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+      }
+
+      .section {
+        margin-top: 10px;
+      }
+
       h1 {
-        font-size: 24px;
-        margin-bottom: 8px;
+        margin: 0;
+        font-size: clamp(24px, 5vw, 32px);
+        line-height: 1.35;
       }
+
+      h2 {
+        margin: 0 0 8px;
+        font-size: 20px;
+        color: #1b3552;
+      }
+
       p {
+        margin: 0;
         font-size: 14px;
       }
+
+      ul {
+        margin: 8px 0 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 4px;
+        font-size: 14px;
+      }
+
       .meta {
-        color: #666;
-        font-size: 12px;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .note {
+        margin-top: 8px;
+        color: #9e2a2a;
+        font-size: 13px;
+      }
+
+      a {
+        color: var(--brand);
       }
     </style>
   </head>
   <body>
-    <h1>HomeEstimateApp Privacy Policy</h1>
-    <div class="meta">Last updated: 2026-02-17</div>
-    <p>This page is reserved for HomeEstimateApp privacy policy content.</p>
-    <p>Publish the final policy text here before release.</p>
+    <main class="wrap">
+      <section class="hero">
+        <h1>プライバシーポリシー</h1>
+        <p class="meta">制定日: 2026年2月18日 / 最終改定日: 2026年2月18日</p>
+        <p style="margin-top: 8px;">
+          「注文住宅予算管理アプリ（HomeEstimateApp）」（以下「本アプリ」）における、
+          ユーザー情報の取扱いについて、以下のとおり定めます。
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>1. 取得する情報</h2>
+        <ul>
+          <li>自動取得情報: クラッシュログ、診断情報（OS提供範囲）、端末種別、OSバージョン等の技術情報</li>
+          <li>テンプレート配信利用時の通信情報: IPアドレス、アクセス日時、ユーザーエージェント等の一般的なアクセスログ（配信基盤側で記録される場合があります）</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>2. 利用目的</h2>
+        <ul>
+          <li>本アプリ機能の提供（見積管理、履歴管理、テンプレート取得等）</li>
+          <li>不具合調査、品質改善、セキュリティ対応</li>
+          <li>ユーザーサポート対応</li>
+          <li>法令または利用規約に基づく対応</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>3. 保存先と保存期間</h2>
+        <ul>
+          <li>ユーザーが入力した見積データ等は、原則としてユーザー端末内に保存されます。</li>
+          <li>本アプリは、ユーザー入力データを当社サーバーへ送信・保管する機能を提供していません。</li>
+          <li>本アプリ削除時は、OS仕様により端末内データが消去される場合があります。</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>4. 第三者提供</h2>
+        <p>当社は、法令で認められる場合を除き、ユーザーの個人情報を第三者に提供しません。</p>
+      </section>
+
+      <section class="section">
+        <h2>5. 外部サービスの利用</h2>
+        <ul>
+          <li>アプリ配布・運用（App Store / TestFlight等）</li>
+          <li>クラッシュログ・診断情報の取得（OS提供機能）</li>
+          <li>テンプレート配信（公開ドキュメント配信基盤）</li>
+        </ul>
+        <p style="margin-top: 8px;">外部サービスにおける情報の取扱いは、各提供事業者のポリシーに従います。</p>
+      </section>
+
+      <section class="section">
+        <h2>6. ユーザーによる管理</h2>
+        <ul>
+          <li>アプリ内データの編集・削除</li>
+          <li>バックアップ書き出し／読み込み</li>
+          <li>アプリ削除によるデータ削除（端末内）</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>7. 安全管理措置</h2>
+        <p>当社は、情報漏えい・改ざん・不正アクセス等の防止に向け、合理的な安全管理措置を講じます。</p>
+      </section>
+
+      <section class="section">
+        <h2>8. 未成年者の利用</h2>
+        <p>未成年者が本アプリを利用する場合は、必要に応じて保護者の同意を得たうえで利用してください。</p>
+      </section>
+
+      <section class="section">
+        <h2>9. 本ポリシーの改定</h2>
+        <p>当社は、必要に応じて本ポリシーを改定することがあります。重要な変更がある場合は、適切な方法で周知します。</p>
+      </section>
+
+      <section class="section">
+        <h2>10. お問い合わせ窓口</h2>
+        <ul>
+          <li>開発者: tshimabu</li>
+          <li>連絡先: ranberry.rd@gmail.com</li>
+          <li>公開URL: <a href="https://documents.meganedev.com/home-estimate-app/privacypolicy">https://documents.meganedev.com/home-estimate-app/privacypolicy</a></li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
