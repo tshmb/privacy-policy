@@ -19,8 +19,8 @@
               "name": "建物本体工事",
               "children": [
                 {
-                  "id": "item",
-                  "item_code": "item",
+                  "id": "ichijo_item",
+                  "item_code": "ichijo_item",
                   "name": "タイプ名：⚪︎⚪︎",
                   "category_name": "建物本体工事",
                   "scope_note": "グランスマート等、シリーズ名を記載するとわかりやすいです。",
@@ -33,8 +33,8 @@
               "name": "建築申請・その他業務諸費用",
               "children": [
                 {
-                  "id": "item_2",
-                  "item_code": "item_2",
+                  "id": "ichijo_item_2",
+                  "item_code": "ichijo_item_2",
                   "name": "確認申請・長期優良住宅手続き及び諸費用",
                   "category_name": "建築申請・その他業務諸費用",
                   "scope_note": "",
@@ -47,48 +47,48 @@
               "name": "付帯工事",
               "children": [
                 {
-                  "id": "item_3",
-                  "item_code": "item_3",
+                  "id": "ichijo_item_3",
+                  "item_code": "ichijo_item_3",
                   "name": "仮設工事",
                   "category_name": "付帯工事",
                   "scope_note": "",
                   "default_order": 30
                 },
                 {
-                  "id": "item_4",
-                  "item_code": "item_4",
+                  "id": "ichijo_item_4",
+                  "item_code": "ichijo_item_4",
                   "name": "屋外給水設備工事",
                   "category_name": "付帯工事",
                   "scope_note": "",
                   "default_order": 40
                 },
                 {
-                  "id": "item_5",
-                  "item_code": "item_5",
+                  "id": "ichijo_item_5",
+                  "item_code": "ichijo_item_5",
                   "name": "屋外排水設備工事",
                   "category_name": "付帯工事",
                   "scope_note": "",
                   "default_order": 50
                 },
                 {
-                  "id": "item_6",
-                  "item_code": "item_6",
+                  "id": "ichijo_item_6",
+                  "item_code": "ichijo_item_6",
                   "name": "屋外雨水設備工事",
                   "category_name": "付帯工事",
                   "scope_note": "",
                   "default_order": 60
                 },
                 {
-                  "id": "item_7",
-                  "item_code": "item_7",
+                  "id": "ichijo_item_7",
+                  "item_code": "ichijo_item_7",
                   "name": "浄化槽",
                   "category_name": "付帯工事",
                   "scope_note": "",
                   "default_order": 70
                 },
                 {
-                  "id": "item_8",
-                  "item_code": "item_8",
+                  "id": "ichijo_item_8",
+                  "item_code": "ichijo_item_8",
                   "name": "運搬費",
                   "category_name": "付帯工事",
                   "scope_note": "",
@@ -101,8 +101,8 @@
               "name": "標準仕様外工事",
               "children": [
                 {
-                  "id": "item_9",
-                  "item_code": "item_9",
+                  "id": "ichijo_item_9",
+                  "item_code": "ichijo_item_9",
                   "name": "立水栓変更",
                   "category_name": "標準仕様外工事",
                   "scope_note": "一条工務店の標準外工事はこのカテゴリに入ります。適宜追加をして下さい。",
@@ -115,8 +115,8 @@
               "name": "太陽光発電システム",
               "children": [
                 {
-                  "id": "item_10",
-                  "item_code": "item_10",
+                  "id": "ichijo_item_10",
+                  "item_code": "ichijo_item_10",
                   "name": "オリジナル太陽光＆蓄電池パッケージ",
                   "category_name": "太陽光発電システム",
                   "scope_note": "",
@@ -129,24 +129,24 @@
               "name": "その他費用",
               "children": [
                 {
-                  "id": "item_11",
-                  "item_code": "item_11",
+                  "id": "ichijo_item_11",
+                  "item_code": "ichijo_item_11",
                   "name": "一次外構工事費",
                   "category_name": "その他費用",
                   "scope_note": "",
                   "default_order": 110
                 },
                 {
-                  "id": "item_12",
-                  "item_code": "item_12",
+                  "id": "ichijo_item_12",
+                  "item_code": "ichijo_item_12",
                   "name": "外構工事",
                   "category_name": "その他費用",
                   "scope_note": "",
                   "default_order": 120
                 },
                 {
-                  "id": "item_13",
-                  "item_code": "item_13",
+                  "id": "ichijo_item_13",
+                  "item_code": "ichijo_item_13",
                   "name": "水道別途工事",
                   "category_name": "その他費用",
                   "scope_note": "",
@@ -165,56 +165,56 @@
               "name": "諸費用",
               "children": [
                 {
-                  "id": "item_14",
-                  "item_code": "item_14",
+                  "id": "ichijo_item_14",
+                  "item_code": "ichijo_item_14",
                   "name": "火災保険料・地震保険料",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 140
                 },
                 {
-                  "id": "item_15",
-                  "item_code": "item_15",
+                  "id": "ichijo_item_15",
+                  "item_code": "ichijo_item_15",
                   "name": "地盤調査費",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 150
                 },
                 {
-                  "id": "item_16",
-                  "item_code": "item_16",
+                  "id": "ichijo_item_16",
+                  "item_code": "ichijo_item_16",
                   "name": "地盤改良費",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 160
                 },
                 {
-                  "id": "item_17",
-                  "item_code": "item_17",
+                  "id": "ichijo_item_17",
+                  "item_code": "ichijo_item_17",
                   "name": "設計報酬",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 170
                 },
                 {
-                  "id": "item_18",
-                  "item_code": "item_18",
+                  "id": "ichijo_item_18",
+                  "item_code": "ichijo_item_18",
                   "name": "契約書印紙代",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 180
                 },
                 {
-                  "id": "item_19",
-                  "item_code": "item_19",
+                  "id": "ichijo_item_19",
+                  "item_code": "ichijo_item_19",
                   "name": "上下水道加入金",
                   "category_name": "諸費用",
                   "scope_note": "",
                   "default_order": 190
                 },
                 {
-                  "id": "item_20",
-                  "item_code": "item_20",
+                  "id": "ichijo_item_20",
+                  "item_code": "ichijo_item_20",
                   "name": "登記費用",
                   "category_name": "諸費用",
                   "scope_note": "",
@@ -233,32 +233,32 @@
               "name": "土地取得費",
               "children": [
                 {
-                  "id": "item_21",
-                  "item_code": "item_21",
+                  "id": "ichijo_item_21",
+                  "item_code": "ichijo_item_21",
                   "name": "土地代金",
                   "category_name": "土地取得費",
                   "scope_note": "",
                   "default_order": 210
                 },
                 {
-                  "id": "item_22",
-                  "item_code": "item_22",
+                  "id": "ichijo_item_22",
+                  "item_code": "ichijo_item_22",
                   "name": "仲介手数料",
                   "category_name": "土地取得費",
                   "scope_note": "",
                   "default_order": 220
                 },
                 {
-                  "id": "item_23",
-                  "item_code": "item_23",
+                  "id": "ichijo_item_23",
+                  "item_code": "ichijo_item_23",
                   "name": "印紙代",
                   "category_name": "土地取得費",
                   "scope_note": "",
                   "default_order": 230
                 },
                 {
-                  "id": "item_24",
-                  "item_code": "item_24",
+                  "id": "ichijo_item_24",
+                  "item_code": "ichijo_item_24",
                   "name": "登記費用・固定資産税精算金",
                   "category_name": "土地取得費",
                   "scope_note": "",

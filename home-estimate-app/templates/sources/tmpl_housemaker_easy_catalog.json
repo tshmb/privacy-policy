@@ -19,8 +19,8 @@
               "name": "建物",
               "children": [
                 {
-                  "id": "item",
-                  "item_code": "item",
+                  "id": "easy_item",
+                  "item_code": "easy_item",
                   "name": "建物",
                   "category_name": "建物",
                   "scope_note": "建物に関わる金額は全てここに入力する",
@@ -39,8 +39,8 @@
               "name": "土地",
               "children": [
                 {
-                  "id": "item_2",
-                  "item_code": "item_2",
+                  "id": "easy_item_2",
+                  "item_code": "easy_item_2",
                   "name": "土地",
                   "category_name": "土地",
                   "scope_note": "土地に関わる金額は全てここに入力する",
@@ -59,8 +59,8 @@
               "name": "諸費用",
               "children": [
                 {
-                  "id": "item_3",
-                  "item_code": "item_3",
+                  "id": "easy_item_3",
+                  "item_code": "easy_item_3",
                   "name": "諸費用",
                   "category_name": "諸費用",
                   "scope_note": "諸費用に関わる金額は全てここに入力する",
