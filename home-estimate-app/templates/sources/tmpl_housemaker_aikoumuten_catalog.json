@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "published_at": "2026-02-17T23:53:18.019Z",
+  "templates": [
+    {
+      "id": "tmpl_housemaker_aikoumuten",
+      "manufacturer_name": "アイ工務店テンプレート",
+      "display_name": "アイ工務店のテンプレート",
+      "summary": "アイ工務店のテンプレート（2025年確認）",
+      "version": 1,
+      "updated_at": "2026-02-17T23:53:18.019Z",
+      "levels": [
+        {
+          "id": "level1_1",
+          "name": "建物関連費用",
+          "children": [
+            {
+              "id": "level2_1_1",
+              "name": "建物請負工事費用",
+              "children": [
+                {
+                  "id": "item",
+                  "item_code": "item",
+                  "name": "建物本体工事",
+                  "category_name": "本体",
+                  "scope_note": "",
+                  "default_order": 10
+                },
+                {
+                  "id": "item_2",
+                  "item_code": "item_2",
+                  "name": "その他工事費",
+                  "category_name": "本体",
+                  "scope_note": "",
+                  "default_order": 20
+                },
+                {
+                  "id": "item_3",
+                  "item_code": "item_3",
+                  "name": "電気配線工事",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 30
+                },
+                {
+                  "id": "item_4",
+                  "item_code": "item_4",
+                  "name": "屋外給排水工事",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 40
+                },
+                {
+                  "id": "item_5",
+                  "item_code": "item_5",
+                  "name": "雨水排水接続工事",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 50
+                },
+                {
+                  "id": "item_6",
+                  "item_code": "item_6",
+                  "name": "管理諸費用",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 60
+                },
+                {
+                  "id": "item_7",
+                  "item_code": "item_7",
+                  "name": "安全管理費",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 70
+                },
+                {
+                  "id": "item_8",
+                  "item_code": "item_8",
+                  "name": "共通仮設工事",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 80
+                },
+                {
+                  "id": "item_9",
+                  "item_code": "item_9",
+                  "name": "仮囲い工事",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 90
+                },
+                {
+                  "id": "item_10",
+                  "item_code": "item_10",
+                  "name": "残土処分費",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 100
+                },
+                {
+                  "id": "item_11",
+                  "item_code": "item_11",
+                  "name": "ガス工事費",
+                  "category_name": "付帯",
+                  "scope_note": "",
+                  "default_order": 110
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "level1_2",
+          "name": "土地取得費",
+          "children": [
+            {
+              "id": "level2_2_1",
+              "name": "土地関係費用",
+              "children": [
+                {
+                  "id": "item_12",
+                  "item_code": "item_12",
+                  "name": "土地代金",
+                  "category_name": "土地諸費用",
+                  "scope_note": "",
+                  "default_order": 120
+                },
+                {
+                  "id": "item_13",
+                  "item_code": "item_13",
+                  "name": "契約印紙代",
+                  "category_name": "土地諸費用",
+                  "scope_note": "",
+                  "default_order": 130
+                },
+                {
+                  "id": "item_14",
+                  "item_code": "item_14",
+                  "name": "仲介手数料",
+                  "category_name": "土地諸費用",
+                  "scope_note": "",
+                  "default_order": 140
+                },
+                {
+                  "id": "item_15",
+                  "item_code": "item_15",
+                  "name": "土地登記・固定資産税",
+                  "category_name": "土地諸費用",
+                  "scope_note": "",
+                  "default_order": 150
+                },
+                {
+                  "id": "item_16",
+                  "item_code": "item_16",
+                  "name": "解体工事費",
+                  "category_name": "土地諸費用",
+                  "scope_note": "",
+                  "default_order": 160
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "level1_3",
+          "name": "諸費用",
+          "children": [
+            {
+              "id": "level2_3_1",
+              "name": "建物諸費用",
+              "children": [
+                {
+                  "id": "item_17",
+                  "item_code": "item_17",
+                  "name": "設計料",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 170
+                },
+                {
+                  "id": "item_18",
+                  "item_code": "item_18",
+                  "name": "工事監理料",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 180
+                },
+                {
+                  "id": "item_19",
+                  "item_code": "item_19",
+                  "name": "建物検査費",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 190
+                },
+                {
+                  "id": "item_20",
+                  "item_code": "item_20",
+                  "name": "地盤調査費",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 200
+                },
+                {
+                  "id": "item_21",
+                  "item_code": "item_21",
+                  "name": "建物確認申請代行費",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 210
+                },
+                {
+                  "id": "item_22",
+                  "item_code": "item_22",
+                  "name": "ローン利用料",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 220
+                },
+                {
+                  "id": "item_23",
+                  "item_code": "item_23",
+                  "name": "道路使用許可",
+                  "category_name": "申請費他",
+                  "scope_note": "",
+                  "default_order": 230
+                }
+              ]
+            },
+            {
+              "id": "level2_3_2",
+              "name": "その他予備費用",
+              "children": [
+                {
+                  "id": "item_24",
+                  "item_code": "item_24",
+                  "name": "請負契約書印紙代",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 240
+                },
+                {
+                  "id": "item_25",
+                  "item_code": "item_25",
+                  "name": "地盤改良費",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 250
+                },
+                {
+                  "id": "item_26",
+                  "item_code": "item_26",
+                  "name": "外構工事費",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 260
+                },
+                {
+                  "id": "item_27",
+                  "item_code": "item_27",
+                  "name": "火災保険料",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 270
+                },
+                {
+                  "id": "item_28",
+                  "item_code": "item_28",
+                  "name": "カーテン工事費",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 280
+                },
+                {
+                  "id": "item_29",
+                  "item_code": "item_29",
+                  "name": "照明工事費",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 290
+                },
+                {
+                  "id": "item_30",
+                  "item_code": "item_30",
+                  "name": "水道分担金",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 300
+                },
+                {
+                  "id": "item_31",
+                  "item_code": "item_31",
+                  "name": "建物登記費用",
+                  "category_name": "その他予備費用",
+                  "scope_note": "",
+                  "default_order": 310
+                },
+                {
+                  "id": "item_32",
+                  "item_code": "item_32",
+                  "name": "ローン契約用印紙代",
+                  "category_name": "融資関係",
+                  "scope_note": "",
+                  "default_order": 320
+                },
+                {
+                  "id": "item_33",
+                  "item_code": "item_33",
+                  "name": "融資手数料",
+                  "category_name": "融資関係",
+                  "scope_note": "",
+                  "default_order": 330
+                },
+                {
+                  "id": "item_34",
+                  "item_code": "item_34",
+                  "name": "ローン保証料",
+                  "category_name": "融資関係",
+                  "scope_note": "",
+                  "default_order": 340
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
